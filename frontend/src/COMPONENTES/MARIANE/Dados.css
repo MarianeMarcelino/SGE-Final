@@ -1,0 +1,41 @@
+.table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table th,
+.table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.5rem;
+}
+
+.azul {
+  background-color: #057a8a;
+  color: white;
+  text-align: center;
+}
+
+.centraliza{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .texto{
+    text-align: center;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+
+.row-aligned {
+  display: flex;
+  align-items: center;
+}
+

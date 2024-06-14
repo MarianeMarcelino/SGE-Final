@@ -1,0 +1,43 @@
+#login {
+  background: linear-gradient(to right, #034d57, #089099);
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra da borda */
+}
+
+#titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#label{
+  color: white;
+}
+
+#botao{
+  margin-top: 30px;
+  width: 100%;
+  background-color: #28a745; /* Cor de fundo verde */
+  color: #ffffff; /* Cor do texto (geralmente branco) */
+  border: 1px solid #28a745; /* Borda sólida na mesma cor que o fundo */
+  border-radius: 4px; /* Borda arredondada */
+  padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+  font-size: 16px; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  cursor: pointer; /* Altera o cursor para uma mão ao passar o mouse */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave de cores ao passar o mouse */
+}
+
+#botao:hover {
+  background-color: #218838; /* Cor de fundo mais escura quando o mouse passa por cima */
+  color: #ffffff; /* Cor do texto (geralmente branco) */
+}

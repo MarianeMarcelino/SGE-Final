@@ -1,0 +1,175 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: #ccc;
+}
+
+.a {
+  cursor: pointer;
+}
+
+#cabecalho{
+  margin-left: 120px;
+}
+
+#cabecalho.expanded {
+  margin-left: 300px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 110px;
+  height: 100vh;
+  padding: 0 1.7rem;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.1s linear;
+  background: linear-gradient(to right, #034d57, #089099);
+}
+
+.sidebar:hover,
+.menu li.active .sidebar {
+  width: 290px;
+  transition: 0.9s;
+}
+
+.logo {
+  height: 80px;
+  padding: 16px;
+}
+
+.menu {
+  height: 88%;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+.sidebar:hover .menu {
+  overflow-y: auto; /* Mostra a barra de rolagem quando o mouse estiver sobre a barra lateral */
+}
+
+
+.menu li {
+  padding: 1rem;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: all 0.1s ease-in-out;
+}
+
+.menu li:hover {
+  background: #51abbb;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu a span {
+  overflow: hidden;
+}
+
+.menu a i {
+  font-size: 1.2rem;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main--content {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+}
+
+.header--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #034d57;
+  border-radius: 10px;
+  padding: 8px 2rem;
+  margin-bottom: 1rem;
+}
+
+.header--title {
+  color: rgb(255, 255, 255);
+  margin: 0 20px;
+}
+
+.header--title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.header--title {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  margin-right: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+.section-title h2.fw-bold {
+  color: rgb(16, 91, 99);
+  font-weight: bold;
+}
+
+label {
+  font-size: 1.25rem;
+  color: rgb(19, 107, 117);
+  font-weight: bold;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #034d57, #034d57);
+  border: none;
+}
+
+#mensagem {
+  margin-top: 5px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li.highlighted {
+  background-color: #51abbb;
+}
+
+#sgeImage {
+  border-radius: 10%;
+}

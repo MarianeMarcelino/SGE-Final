@@ -1,0 +1,7 @@
+CREATE TABLE agenda (
+    codigo INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    turma VARCHAR(50) NOT NULL,
+    dia VARCHAR(100) NOT NULL,
+    hora VARCHAR(100) NOT NULL
+);
